@@ -1,0 +1,83 @@
+
+.dashboardbody{
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: darkcyan;
+  background: linear-gradient(
+    35deg,
+    rgb(171, 220, 247) 0%,
+    rgba(32, 155, 201, 0.74) 50%
+  ),
+  linear-gradient(145deg, rgb(171, 220, 247) 50%, rgba(32, 176, 201, 0.74) 0%);
+box-shadow: -5px 5px 8px #1391c7, 5px -5px 8px #358baf;
+  margin-top: 2.5%;
+}
+
+.dashboard-section{
+  text-align: center;
+  padding: 0px;
+  background-color: #ffffff;
+  
+  margin-bottom: 4%; 
+}
+.dashboardbody h1 {
+  margin-bottom: 20px;
+}
+
+.dashboardform{
+  margin-bottom: 20px;
+}
+
+.dashboardform input {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #0a0909;
+  border-radius: 5px;
+}
+
+.dashboardform button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0065d1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #f8f8f8;
+  color: #000000;
+}
+
+table button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+table button:hover {
+  background-color: #b49d9f;
+  justify-content: space-between;
+}
